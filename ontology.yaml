@@ -1,0 +1,160 @@
+anova (analysis of variance, anova test):
+  variations:
+  - one-way anova (1-way anova, one-way anova)
+  - two-way anova (two-way anova, 2-way anova)
+  - repeated measures anova
+  - welch’s anova (unequal variance anova)
+  - brown–forsythe anova
+  corrections:
+  - tukey hsd correction (tukey’s test, tukey-adjusted post hoc comparisons, tukey
+    correction, tukey’s hsd correction, tukey’s hsd post hoc correction)
+  - bonferroni correction (bonferroni multiple correction, bonferroni’s multiple comparisons,
+    bonferroni’s correction, bonferroni post hoc test)
+  - holm’s correction (holm-bonferroni method, holm’s post hoc test, holm-bonferroni
+    correction)
+  - scheffé's method
+  - sidak correction
+  - dunnett’s test (dunnett’s post hoc correction, dunnett's test)
+  - greenhouse-geisser correction
+  - huynh-feldt correction
+t-test (student’s t-test, t-test, t test, student t-test, t tests):
+  variations:
+  - one-sample t-test
+  - paired t-test
+  - unpaired t-test (independent t-test)
+  - two-sample t-test with equal variance
+  - unequal variance t-test (welch’s t-test)
+  - one-tailed t-test (one-sided t-test)
+  - two-tailed t-test (two-sided t-test)
+  corrections:
+  - bonferroni correction (bonferroni multiple correction, bonferroni’s multiple comparisons,
+    bonferroni’s correction, bonferroni post hoc test)
+  - holm’s correction (holm-bonferroni method, holm’s post hoc test, holm-bonferroni
+    correction)
+  - fdr correction (false discovery rate (fdr) correction)
+chi-square test (χ² test, chi-square test):
+  variations:
+  - chi-square goodness of fit test
+  - chi-square test of independence
+  - likelihood ratio chi-square
+  - continuity correction (yates’ continuity correction)
+  corrections:
+  - bonferroni correction (bonferroni multiple correction, bonferroni’s multiple comparisons,
+    bonferroni’s correction, bonferroni post hoc test)
+  - holm’s correction (holm-bonferroni method, holm’s post hoc test, holm-bonferroni
+    correction)
+  - fdr correction (false discovery rate (fdr) correction)
+dunnett's test (dunnett’s post hoc correction, dunnett's test):
+  corrections:
+  - bonferroni correction (bonferroni multiple correction, bonferroni’s multiple comparisons,
+    bonferroni’s correction, bonferroni post hoc test)
+  - holm’s correction (holm-bonferroni method, holm’s post hoc test, holm-bonferroni
+    correction)
+d'agostino–pearson omnibus test (d'agostino’s k-squared test, d'agostino's k test):
+  corrections:
+  - 'null'
+mann-whitney u test (mann–whitney u test, wilcoxon rank-sum test):
+  variations:
+  - one-tailed mann–whitney u test
+  - two-tailed mann–whitney u test
+  corrections:
+  - bonferroni correction (bonferroni multiple correction, bonferroni’s multiple comparisons,
+    bonferroni’s correction, bonferroni post hoc test)
+  - holm’s correction (holm-bonferroni method, holm’s post hoc test, holm-bonferroni
+    correction)
+  - fdr correction (false discovery rate (fdr) correction)
+kruskal-wallis test (kruskal–wallis h test, ks test, two-sample kolmogorov-smirnov (ks) test):
+  corrections:
+  - bonferroni correction (bonferroni multiple correction, bonferroni’s multiple comparisons,
+    bonferroni’s correction, bonferroni post hoc test)
+  - dunn’s test
+wilcoxon signed-rank test (wilcoxon test, wilcoxon rank-sum test):
+  corrections:
+  - 'null'
+shapiro-wilk test (shapiro–wilk test):
+  corrections:
+  - bonferroni correction (bonferroni multiple correction, bonferroni’s multiple comparisons,
+    bonferroni’s correction, bonferroni post hoc test)
+  - holm’s correction (holm-bonferroni method, holm’s post hoc test, holm-bonferroni
+    correction)
+  - fdr correction (false discovery rate (fdr) correction)
+permutation test:
+  variations:
+  - exact permutation test
+  - approximate permutation test
+  corrections:
+  - 'null'
+kolmogorov-smirnov test (k-s test, ks test):
+  variations:
+  - one-sample k-s test
+  - two-sample k-s test
+  corrections:
+  - lilliefors correction (for unknown mean and variance)
+fisher’s exact test (fisher’s exact test):
+  corrections:
+  - bonferroni correction (bonferroni multiple correction, bonferroni’s multiple comparisons,
+    bonferroni’s correction, bonferroni post hoc test)
+  - holm’s correction (holm-bonferroni method, holm’s post hoc test, holm-bonferroni
+    correction)
+  - fdr correction (false discovery rate (fdr) correction)
+levene’s test:
+  corrections:
+  - 'null'
+log-rank test (mantel-cox test):
+  variations:
+  - weighted log-rank test
+  - adapted log-rank test (weighted kaplan-meier test)
+  - permutational log-rank test
+  - renyi-type log-rank test
+  corrections:
+  - bonferroni correction (bonferroni multiple correction, bonferroni’s multiple comparisons,
+    bonferroni’s correction, bonferroni post hoc test)
+  - holm’s correction (holm-bonferroni method, holm’s post hoc test, holm-bonferroni
+    correction)
+  - fdr correction (false discovery rate (fdr) correction)
+f-test (fisher’s f-test):
+  variations:
+  - one-way f-test
+  - two-way f-test
+  - repeated measures f-test
+  - multivariate f-test (manova)
+  corrections:
+  - bonferroni correction (bonferroni multiple correction, bonferroni’s multiple comparisons,
+    bonferroni’s correction, bonferroni post hoc test)
+  - holm’s correction (holm-bonferroni method, holm’s post hoc test, holm-bonferroni
+    correction)
+  - fdr correction (false discovery rate (fdr) correction)
+dunn’s test (dunn’s multiple comparison test):
+  corrections:
+  - bonferroni correction (bonferroni multiple correction, bonferroni’s multiple comparisons,
+    bonferroni’s correction, bonferroni post hoc test)
+  - holm’s correction (holm-bonferroni method, holm’s post hoc test, holm-bonferroni
+    correction)
+shapiro-francia test:
+  corrections:
+  - 'null'
+mcnemar’s test (mcnemar test):
+  variations:
+  - exact mcnemar’s test
+  - mcnemar-bowker test (for more than two categories)
+  corrections:
+  - bonferroni correction (bonferroni multiple correction, bonferroni’s multiple comparisons,
+    bonferroni’s correction, bonferroni post hoc test)
+sign test:
+  corrections:
+  - 'null'
+cochran’s q test (cochran’s test):
+  corrections:
+  - 'null'
+median test:
+  variations:
+  - mood’s median test
+  - westenberg-mood median test
+  corrections:
+  - 'null'
+siegel-tukey test:
+  corrections:
+  - 'null'
+barnard’s test:
+  corrections:
+  - 'null'
