@@ -1,14 +1,15 @@
 ancova:
   alias:
   - ancova
-  - ancova test
+  - analysis of covariance 
   properties: {}
 
 anova:
   alias:
   - anova
   - analysis of variance
-  - anova test
+  - f-test
+  - manova
   properties:
     factor-based anova:
       one-way anova:
@@ -38,16 +39,21 @@ anova:
 bartlett's test:
   alias:
   - bartlett's test
+  - bartlett test 
   properties: {}
 
 chi-squared test:
   alias:
   - chi-squared test
+  - likelihood-ratio test
+  - chi-square test 
   properties: {}
 
 fisher's exact test":
   alias:
   - fisher's exact test
+  - fisher exact test
+  - fisher-irwin test 
   properties: {}
 
 kolmogorov-smirnov test:
@@ -55,6 +61,8 @@ kolmogorov-smirnov test:
   - kolmogorov-smirnov test
   - ks test
   - k-s test 
+  - kolmogorov test 
+  - smirnov test 
   properties:
     sample-size based kolmogorov-smirnov test:
       one-sample kolmogorov-smirnov test:
@@ -67,13 +75,12 @@ kolmogorov-smirnov test:
 kruskal-wallis test:
   alias:
   - kruskal-wallis test
-  - non-parametric kruskal-wallis test
   - ks test
   properties: {}
 
 levene's test:
   alias:
-  - levene's test"
+  - levene's test
   - levene test
   properties: {}
 
@@ -81,6 +88,10 @@ mann-whitney u test:
   alias:
   - mann-whitney u test
   - mann-whitney test
+  - manns test 
+  - mann-whitney-wilcoxon
+  - wilcoxon rank-sum test 
+  - wilcoxon-mann-whitney test
   properties:
     tail-direction based mann-whitney u test:
       one-tailed mann-whitney u test:
@@ -93,6 +104,7 @@ mann-whitney u test:
 mcnemar's test:
   alias:
   - mcnemar's test
+  - mcnemar test 
   properties:
     category-based mcnemar's test:
       mcnemar-bowker test:
@@ -114,10 +126,7 @@ permutation test:
 
 t-test:
   alias:
-  - t-test
   - t test
-  - student's t-test"
-  - student t-test
   properties:
     pairing-based t-test:
       paired t-test:
@@ -151,11 +160,15 @@ t-test:
 wald test:
   alias:
   - wald test
+  - wald chi-square test 
+  - wald z-test 
   properties: {}
 
 watson's u^2 test:
   alias:
   - watson's u^2 test
+  - watson test 
+  - warson's test 
   properties: {}
   
 wilcoxon signed-rank test:
