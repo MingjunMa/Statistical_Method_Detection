@@ -75,7 +75,6 @@ kolmogorov-smirnov test:
 kruskal-wallis test:
   alias:
   - kruskal-wallis test
-  - ks test
   properties: {}
 
 levene's test:
@@ -184,3 +183,10 @@ wilcoxon signed-rank test:
       two-sided wilcoxon signed-rank test:
         alias:
         - two-sided wilcoxon signed-rank test
+
+shapiro-wilk test:
+ alias:
+ - shapiro-wilk tests
+ properties: {}
+   
+
