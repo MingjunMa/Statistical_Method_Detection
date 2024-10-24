@@ -1,0 +1,49 @@
+benjamini-hochberg correction:
+  alias:
+  - benjamini-hochberg correction
+  - bh correction
+bonferroni correction:
+  alias:
+  - bonferroni correction
+  - bonferroni multiple comparison
+  - bonferroni post hoc test
+dunnett's correction:
+  alias:
+  - dunnett's correction
+  - dunnett's post hoc test
+fdr correction:
+  alias:
+  - fdr correction
+  - false discovery rate correction
+
+greenhouse-geisser correction:
+  alias:
+  - greenhouse-geisser correction
+holm's correction:
+  alias:
+  - holm's correction
+  - holm-bonferroni correction
+  - holm post hoc test
+holm-sidak correction:
+  alias:
+  - holm-sidak correction
+huynh-feldt correction:
+  alias:
+  - huynh-feldt correction
+lilliefors correction:
+  alias:
+  - lilliefors correction
+scheffe's correction:
+  alias:
+  - scheffe's correction
+  - scheffe's post hoc test
+sidak correction:
+  alias:
+  - sidak correction
+  - sidak's correction
+tukey's test:
+  alias:
+  - tukey's correction
+  - tukey hsd correction
+  - tukey-adjusted post hoc comparisons
+  - tukey’s hsd post hoc correction

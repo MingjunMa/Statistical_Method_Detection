@@ -1,0 +1,173 @@
+ancova:
+  alias:
+  - ancova
+  - ancova test
+  properties: {}
+
+anova:
+  alias:
+  - anova
+  - analysis of variance
+  - anova test
+  properties:
+    factor-based anova:
+      one-way anova:
+        alias:
+        - one-way anova
+        - 1-way anova
+      three-way anova:
+        alias:
+        - three-way anova
+        - 3-way anova
+      two-way anova:
+        alias:
+        - two-way anova
+        - 2-way anova
+    variance-adjusted anova:
+      brown-forsythe anova:
+        alias:
+        - brown-forsythe anova
+      nested anova:
+        alias:
+        - nested anova
+        - hierarchical anova
+      welch's anova":
+        alias:
+        - welch's anova
+
+bartlett's test:
+  alias:
+  - bartlett's test
+  properties: {}
+
+chi-squared test:
+  alias:
+  - chi-squared test
+  properties: {}
+
+fisher's exact test":
+  alias:
+  - fisher's exact test
+  properties: {}
+
+kolmogorov-smirnov test:
+  alias:
+  - kolmogorov-smirnov test
+  - ks test
+  - k-s test 
+  properties:
+    sample-size based kolmogorov-smirnov test:
+      one-sample kolmogorov-smirnov test:
+        alias:
+        - one-sample kolmogorov-smirnov test
+      two-sample kolmogorov-smirnov test:
+        alias:
+        - two-sample kolmogorov-smirnov test
+
+kruskal-wallis test:
+  alias:
+  - kruskal-wallis test
+  - non-parametric kruskal-wallis test
+  - ks test
+  properties: {}
+
+levene's test:
+  alias:
+  - levene's test"
+  - levene test
+  properties: {}
+
+mann-whitney u test:
+  alias:
+  - mann-whitney u test
+  - mann-whitney test
+  properties:
+    tail-direction based mann-whitney u test:
+      one-tailed mann-whitney u test:
+        alias:
+        - one-tailed mann-whitney u test
+      two-tailed mann-whitney u test:
+        alias:
+        - two-tailed mann-whitney u test
+
+mcnemar's test:
+  alias:
+  - mcnemar's test
+  properties:
+    category-based mcnemar's test:
+      mcnemar-bowker test:
+        alias:
+        - mcnemar-bowker test
+    sample-size based mcnemar's test:
+      exact mcnemar's test:
+        alias:
+        - exact mcnemar's test
+
+permutation test:
+  alias:
+  - permutation test
+  properties:
+    direction-based permutation test:
+      two-sided permutation test:
+        alias:
+        - two-sided permutation test
+
+t-test:
+  alias:
+  - t-test
+  - t test
+  - student's t-test"
+  - student t-test
+  properties:
+    pairing-based t-test:
+      paired t-test:
+        alias:
+        - paired t-test
+      unpaired t-test:
+        alias:
+        - unpaired t-test
+        - independent t-test
+    sample-size based t-test:
+      one-sample t-test:
+        alias:
+        - one-sample t-test
+      two-sample t-test:
+        alias:
+        - two-sample t-test
+    tail-direction based t-test:
+      one-tailed t-test:
+        alias:
+        - one-tailed t-test
+        - one-sided t-test
+      two-tailed t-test:
+        alias:
+        - two-tailed t-test
+        - two-sided t-test
+    variance-adjusted t-test:
+      unequal variance t-test:
+        alias:
+        - welch's t-test
+
+wald test:
+  alias:
+  - wald test
+  properties: {}
+
+watson's u^2 test:
+  alias:
+  - watson's u^2 test
+  properties: {}
+  
+wilcoxon signed-rank test:
+  alias:
+  - wilcoxon signed-rank test
+  - wilcoxon matched-pairs signed rank test
+  - wilcoxon test
+  properties:
+    tail-direction based wilcoxon signed-rank test:
+      one-sided wilcoxon signed-rank test:
+        alias:
+        - one-sided wilcoxon signed-rank test
+      two-sided wilcoxon signed-rank test:
+        alias:
+        - two-sided wilcoxon signed-rank test
